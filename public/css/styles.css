@@ -1,0 +1,64 @@
+
+@import "~font-awesome/css/font-awesome.css";
+
+html,
+body {
+  height: 100%;
+}
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.footer span {
+  color: #655c56;
+}
+
+.footer {
+  background-color: #effcef;
+}
+
+.contact {
+  border-radius: 3em 3em 0 0;
+  background-color: #effcef;
+}
+
+.contact h1 {
+  color: #94d3ac;
+}
+
+.contact h4 {
+  color: #545454;
+}
+
+.contact button {
+  background-color: #94d3ac;
+}

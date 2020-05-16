@@ -1,0 +1,85 @@
+@import "~font-awesome/css/font-awesome.css";
+
+
+
+.navigation {
+    background-color: #effcef;
+    
+}
+
+
+body > div.navigation.container-fluid.p-4 > div > div.navbar.navbar-expand-lg.bg-faded.col-lg-8 > button > span {
+    background-color: darkgreen;
+}
+
+
+
+.header {
+
+    background-color: #effcef;
+    color: #94d3ac;
+    font-size: 3em;
+}
+
+
+.header-img {
+    background-color: #effcef;
+}
+
+.intro {
+    background-color: #ccedd2;
+}
+
+.intro h2 {
+    color: #94d3ac;
+}
+
+.description h1 {
+    color: #94d3ac;
+}
+.description h2 {
+    color: #ccedd2;
+}
+
+
+
+.contact {
+    border-radius: 3em 3em 0 0;
+    background-color: #effcef;
+}
+
+.contact h1 {
+    color: #94d3ac;
+}
+
+.contact h4 {
+    color: #545454;
+}
+
+.contact button {
+    background-color: #94d3ac;
+}
+
+.footer span {
+    color: #655c56;
+}
+
+.footer {
+    background-color: #effcef;
+}
+.navigation a {
+    color: #94d3ac;
+    font-size: 1.2em;
+    margin-right: 2em;
+}
+
+
+.navigation a:hover{
+    color: #ccedd2;
+}
+
+body p {
+    font-size: 1.3em;
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #545454;
+}

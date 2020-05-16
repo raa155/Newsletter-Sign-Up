@@ -1,0 +1,25 @@
+<%- include('header') %>
+
+    <div style="background-color:#94d3ac;" class="jumbotron jumbotron-fluid text-white">
+      <div class="container">
+        <h1 class="display-4">Newsletter Subscription </h1>
+        <p class="lead">Thanks for thinking about subscribing to the newsletter. I look forward to keeping in touch :)</p>
+        <button class="btn btn-lg btn-outline-light text-white"><a style="text-decoration: none;" class="text-white" href="/">Back to Home Page</a></button>
+      </div>
+    </div>
+    <div class="sign-up-form mb-5">
+        <form action="/" class="form-signin pb-5 mb-5" method="POST">
+            <img class="mb-4" src="img/roman.png" alt="" width="72" height="72">
+            <h1 class="h3 mb-3 font-weight-normal">Keep in touch!</h1>
+            <input type="text" class="form-control top" placeholder="First Name" name="firstName" required autofocus>
+            <input type="text" class="form-control middle" placeholder="Last Name" name="lastName" required>
+            <input type="email"  class="form-control bottom" placeholder="Email address" name="email" required>
+            <button style="background-color:#94d3ac;" class="btn btn-lg btn-block text-white" type="submit">Sign up</button>
+            <p  class="mt-5 mb-3 text-muted">&copy; Roman Abad 2020</p>
+          </form>
+
+    </div>
+    
+
+
+    <%- include('footer') %>
